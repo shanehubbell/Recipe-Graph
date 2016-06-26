@@ -1,0 +1,45 @@
+{
+  "name": "recipe-graph",
+  "version": "0.0.1",
+  "description": "Neo4j graph database of recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanehubbell/Recipe-Graph.git"
+  },
+  "keywords": [
+    "neo4js",
+    "graph",
+    "recipes",
+    "food"
+  ],
+  "author": "Shane Hubbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanehubbell/Recipe-Graph/issues"
+  },
+  "homepage": "https://github.com/shanehubbell/Recipe-Graph#readme",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.3.0",
+    "eslint-plugin-react": "^5.1.1",
+    "node-neo4j": "^2.0.3",
+    "react": "^15.1.0",
+    "request": "^2.72.0",
+    "webpack": "^1.13.1"
+  }
+}
